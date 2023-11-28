@@ -10,12 +10,12 @@ interface FeedListProps {
 export function FeedList({ icon: Icon, title, text, className }: FeedListProps) {
     return (
         <div className="flex mb-10">
-            <div className="flex items-center justify-center bg-blue rounded-full h-24 px-7 mr-3 ">
-                <Icon className="h-10 w-10 text-white" />
+            <div className="flex items-center justify-center bg-blue rounded-full h-75 px-6 mr-3 ">
+                <Icon className="h-7 w-7 text-white" />
             </div>
             <div className="flex flex-col ">
-                <div className="text-zinc-950 font-semibold text-lg">{title}</div>
-                <div className="text-zinc-700 font-normal text-base">{text}</div>
+                <div className="text-zinc-950 font-semibold text-xl">{title}</div>
+                <div className="text-zinc-700 font-normal text-lg">{text}</div>
             </div>
         </div>
     )

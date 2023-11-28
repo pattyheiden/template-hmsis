@@ -16,7 +16,20 @@ const config: Config = {
       },
       backgroundImage: {
         'image': "url('/assets/bg.png')",        
-      }
+      },
+      height: {
+        '75': '4.688rem',
+      },
+      spacing: {
+        "30": "1.875rem",
+        "155":"9.625rem",
+      },
+      rotate: {
+        '38': '35deg',
+      },
+      translate: {
+        '18': '1.125rem',
+      },
     },
   },
   plugins: [],
