@@ -30,35 +30,35 @@ export class MyClients extends Component {
                                         <Slide index={0}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                                 <Link href='https://dulcidora.com.br/' target="_blank">
-                                                    <img src="http://localhost:3000/dulcidora.png" alt="black chair and white table" className="object-cover object-center w-full" />
+                                                    <img src="/dulcidora.png" alt="black chair and white table" className="object-cover object-center w-full" />
                                                 </Link>
                                             </div>
                                         </Slide>
                                         <Slide index={1}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                                 <Link href='https://atonsolucoes.com.br/' target="_blank">
-                                                    <img src="http://localhost:3000/aton.png" alt="sitting area" className="object-cover object-center w-full" />
+                                                    <img src="/aton.png" alt="sitting area" className="object-cover object-center w-full" />
                                                 </Link>
                                             </div>
                                         </Slide>
                                         <Slide index={2}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                                 <Link href='' target="_blank">
-                                                    <img src="http://localhost:3000/blufusos.png" alt="sitting area" className="object-cover object-center w-full" />
+                                                    <img src="/blufusos.png" alt="sitting area" className="object-cover object-center w-full" />
                                                 </Link>
                                             </div>
                                         </Slide>
                                         <Slide index={3}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                                 <Link href='https://merboleletrica.com.br/' target="_blank">
-                                                    <img src="http://localhost:3000/merbol.png" alt="sitting area" className="object-cover object-center w-full" />
+                                                    <img src="/merbol.png" alt="sitting area" className="object-cover object-center w-full" />
                                                 </Link>
                                             </div>
                                         </Slide>
                                         <Slide index={4}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                                 <Link href='https://mosermateriaiseletricos.com.br/' target="_blank">
-                                                    <img src="http://localhost:3000/moser.png" alt="black chair and white table" className="object-cover object-center w-full" />
+                                                    <img src="/moser.png" alt="black chair and white table" className="object-cover object-center w-full" />
                                                 </Link>
                                             </div>
                                         </Slide>
