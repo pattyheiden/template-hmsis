@@ -14,9 +14,9 @@ export function Slide() {
                     <h1 className="text-zinc-950 text-3xl font-bold">Crie sua loja virtual <br />e aumente seu negócio.</h1>
                     <span className="lg:mt-0 text-zinc-950 text-lg font-medium mt-6">Leve sua marca para o mundo digital.</span>
                 </div>
-                <div className="lg:col-span-2 lg:-mt-10 lg:px-0 mt-30 px-6">
+                {/* <div className="lg:col-span-2 lg:-mt-10 lg:px-0 mt-30 px-6">
                     <Lottiefile />
-                </div>
+                </div> */}
             </div>
         </div>
     )
