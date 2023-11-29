@@ -1,8 +1,16 @@
+'use client'
 import Image from "next/image";
 import bg from '@/assets/bg.png'
 import { Lottiefile } from "../Lottiefile";
+import { useEffect, useState } from "react";
 
 export function Slide() {
+    const [lottie, setLottie] = useState(false)
+    useEffect(() => {
+        setTimeout(() => {
+            setLottie(true)
+        }, 600);
+    },[])
 
     return (
         <div>
@@ -14,9 +22,15 @@ export function Slide() {
                     <h1 className="text-zinc-950 text-3xl font-bold">Crie sua loja virtual <br />e aumente seu negócio.</h1>
                     <span className="lg:mt-0 text-zinc-950 text-lg font-medium mt-6">Leve sua marca para o mundo digital.</span>
                 </div>
-                {/* <div className="lg:col-span-2 lg:-mt-10 lg:px-0 mt-30 px-6">
-                    <Lottiefile />
-                </div> */}
+             
+                    
+                    <div className="lg:col-span-2 lg:-mt-10 lg:px-0 mt-30 px-6 lg:min-h-[750px]">
+                        {
+                            lottie &&
+                            <Lottiefile />
+                        }
+                    </div>
+              
             </div>
         </div>
     )
