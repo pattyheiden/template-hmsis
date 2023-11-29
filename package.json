@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-form": "^0.0.3",
     "@radix-ui/react-portal": "^1.0.4",
     "lottie-react": "^2.4.0",
     "next": "14.0.3",

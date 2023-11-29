@@ -3,7 +3,7 @@ import { IoClose, IoCheckmark  } from "react-icons/io5";
 
 export function Plans() {
     return (
-        <div className="lg:w-[1130px] w-screen mx-auto px-3">
+        <div id="plans" className="lg:w-[1130px] w-screen mx-auto px-6">
             <div className="flex flex-col items-center mt-30 mb-30">
                 <span className="text-zinc-950 text-2xl font-extrabold">Planos oferecidos</span>
                 <span className="text-zinc-700 text-lg font-semibold"> para fazer sua loja virtual de sucesso</span>

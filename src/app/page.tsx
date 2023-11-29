@@ -7,10 +7,7 @@ import { Slide } from "@/components/Slide";
 
 export default function Home() {
   return (
-    <div>
-      <div className="bg-zinc-900">
-        <Header />
-      </div>
+    <div>      
       <div>
         <Slide />
       </div>
@@ -22,10 +19,7 @@ export default function Home() {
       </div>
       <div>
         <MyClients />
-      </div>
-      <div>
-        <Footer />
-      </div>
+      </div>      
     </div>
   )
 }

@@ -74,7 +74,7 @@ export class MyClients extends Component {
     render() {
         
         return (
-            <div className="container lg:w-[1130px] w-screen mx-auto">
+            <div id="clients" className="container lg:w-[1130px] w-screen mx-auto">
                 <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
                     <div className="lg:hidden block">
                     {this.slide(1)}

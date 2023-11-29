@@ -8,7 +8,7 @@ export function Footer() {
     return (
         <>
             <div className="flex lg:w-full w-screen border-t-8 border-zinc-900">
-                <div className="lg:grid lg:grid-cols-4 lg:mb-4 w-[1130px] mx-auto mb-3 px-3">
+                <div className="lg:grid lg:grid-cols-4 lg:mb-4 w-[1130px] mx-auto mb-3 px-6">
                     <div className="flex flex-col items-center text-center">
                         <Image src={Logo} alt="" height={130} width={130} />
                         <span className="font-medium text-base text-zinc-700">Há 3 anos transformando pequenos sonhos em grandes negócios.</span>
@@ -43,7 +43,7 @@ export function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center justify-center bg-zinc-900 py-0.5 px-3">
+            <div className="flex items-center justify-center bg-zinc-900 py-1 px-6">
                 <span className="font-medium text-sm text-white text-center">© Copyright 2023 • HMsis Sistemas</span>
             </div>
         </>

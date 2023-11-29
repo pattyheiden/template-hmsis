@@ -4,7 +4,7 @@ import { FeedList } from "./FeedList";
 
 export function Benefits() {
     return (
-        <div className="lg:w-[1130px] lg:mt-0 flex flex-col w-screen mx-auto px-3 mt-30">
+        <div id="benefit" className="lg:w-[1130px] lg:mt-0 flex flex-col w-screen mx-auto px-6 mt-30">
             <div className="flex justify-center">
                 <span className="text-zinc-950 text-2xl font-extrabold text-center">Vantagens de ter sua própria loja virtual</span>
             </div>

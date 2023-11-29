@@ -39,22 +39,22 @@ export function Header() {
                         <div className="bg-zinc-100 w-full rounded text-base ">
                             <ul className='divide-y divide-zinc-400'>
                                 <li className="pl-16 pt-6 pb-6 hover:bg-zinc-200">
-                                    <Link href="#" className="text-zinc-800 hover:text-indigo-500">
+                                    <Link href="/" className="text-zinc-800 hover:text-indigo-500">
                                         Home
                                     </Link>
                                 </li>
                                 <li className="pl-16 pt-6 pb-6 hover:bg-zinc-200">
-                                    <Link href="#" className="text-zinc-800 hover:text-indigo-500">
+                                    <Link href="#benefit" className="text-zinc-800 hover:text-indigo-500">
                                         Vantagens
                                     </Link>
                                 </li>
                                 <li className="pl-16 pt-6 pb-6 hover:bg-zinc-200">
-                                    <Link href="#" className="text-zinc-800 hover:text-indigo-500">
+                                    <Link href="#plans" className="text-zinc-800 hover:text-indigo-500">
                                         Planos
                                     </Link>
                                 </li>
                                 <li className="pl-16 pt-6 pb-6 hover:bg-zinc-200">
-                                    <Link href="#" className="text-zinc-800 hover:text-indigo-500">
+                                    <Link href="#clients" className="text-zinc-800 hover:text-indigo-500">
                                         Clientes
                                     </Link>
                                 </li>
@@ -71,16 +71,16 @@ export function Header() {
                 )
             }
             <div className='lg:flex gap-6 text-lg font-medium hidden'>
-                <Link href="" className='text-white hover:text-zinc-200 transition'>
+                <Link href="/" className='text-white hover:text-zinc-200 transition'>
                     Home
                 </Link>
-                <Link href="" className='text-white hover:text-zinc-200 transition'>
+                <Link href="#benefit" className='text-white hover:text-zinc-200 transition'>
                     Vantagens
                 </Link>
-                <Link href="" className='text-white hover:text-zinc-200 transition '>
+                <Link href="#plans" className='text-white hover:text-zinc-200 transition '>
                     Planos
                 </Link>
-                <Link href="" className='text-white hover:text-zinc-200 transition'>
+                <Link href="#clients" className='text-white hover:text-zinc-200 transition'>
                     Clientes
                 </Link>
                 <Link href="" className='text-white hover:text-zinc-200 transition'>
@@ -88,8 +88,12 @@ export function Header() {
                 </Link>
             </div>
             <div className='lg:flex gap-6 hidden'>
-                <FaInstagram className='h-6 w-6 text-white hover:text-zinc-200 transition' />
-                <FaFacebook className='h-6 w-6 text-white hover:text-zinc-200 transition' />
+                <Link href="https://www.instagram.com/hmsis_/" target='_blank'>
+                    <FaInstagram className='h-6 w-6 text-white hover:text-zinc-200 transition' />
+                </Link>
+                <Link href="https://www.facebook.com/hmsissistemas" target='_blank'>
+                    <FaFacebook className='h-6 w-6 text-white hover:text-zinc-200 transition' />
+                </Link>
             </div>
         </div>
     )
