@@ -2,7 +2,6 @@ import Image from "next/image";
 import Logo from "@/assets/hmsis-black.png"
 import { FaEnvelope, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa6";
 import Link from "next/link";
-import { Contact } from "../Contact";
 
 export function Footer() {
     return (
@@ -34,11 +33,12 @@ export function Footer() {
                     <div id="contact" className="flex flex-col items-center text-center my-9">
                         <span className="text-lg font-semibold text-zinc-900 mb-4">Vamos conversar?</span>
                         <span className="font-medium text-base text-zinc-700">
-                            Queremos conhecê-lo melhor e <br /> entender suas necessidades.
-                            <Contact title="Quero tirar minhas dúvidas" className="bg-blue hover:bg-blue/90 transition px-6 py-2 rounded-lg mt-4 text-white font-medium"/>
-                            {/* <Contact>
-                                <button className="bg-blue hover:bg-blue/90 transition px-6 py-2 rounded-lg mt-4 text-white font-medium">Quero tirar minhas dúvidas</button>
-                            </Contact> */}
+                            Queremos conhecê-lo melhor e <br /> entender suas necessidades.                            
+                            <div>
+                                <Link href="/orcamento">
+                                    <button className="bg-blue hover:bg-blue/90 transition px-6 py-2 rounded-lg mt-4 text-white font-medium">Quero tirar minhas dúvidas</button>
+                                </Link>
+                            </div>
                         </span>
                     </div>
                 </div>

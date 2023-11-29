@@ -1,6 +1,8 @@
 'use client'
 import * as Form from '@radix-ui/react-form'
+import Link from 'next/link'
 import React, { useState } from 'react'
+import { FaWhatsapp } from 'react-icons/fa6'
 
 export default function Orcamento() {
     const defaultSelectValue = 'escolha um plano'
@@ -15,14 +17,16 @@ export default function Orcamento() {
         console.log('Valor selecionado:', selectedValue)
     }
     return (
-        <div className='flex flex-col lg:mx-auto justify-center lg:min-h-[70vh] min-h-screen lg:w-[800px] w-auto space-y-6 px-6'>
+        <div className='flex flex-col lg:mx-auto justify-center lg:min-h-[70vh] lg:w-[650px] lg:my-0 w-auto space-y-6 px-6 my-32'>
             <div className='flex flex-col justify-center items-center text-center gap-3'>
                 <span className='text-2xl font-semibold text-zinc-900'>Peça um orçamento</span>
                 <span className='text-base font-normal text-zinc-700'>
-                    Estamos comprometidos em oferecer soluções personalizadas e competitivas para atender às suas necessidades. Se você está procurando serviços de alta qualidade com preços justos, está no lugar certo! Preencha o formulário abaixo para receber um orçamento sem compromisso.
+                    Estamos comprometidos em oferecer soluções personalizadas e competitivas para atender às suas necessidades. 
+                    Se você está procurando serviços de alta qualidade com preços justos, está no lugar certo! 
+                    Mande sua mensagem. Nosso time entrará em contato em breve para discutir os detalhes do seu projeto e fornecer um orçamento personalizado.
                 </span>
             </div>
-            <Form.Root className='flex flex-col lg:w-[800px] space-y-6'>
+            <Form.Root className='flex flex-col lg:w-[800px] space-y-6 sr-only'>
                 <Form.Field className='text-zinc-900' name='Nome'>
                     <Form.Control asChild>
                         <input
@@ -103,11 +107,19 @@ export default function Orcamento() {
                     </Form.Message>
                 </Form.Field>
                 <Form.Submit asChild>
-                    <button className="flex items-center justify-center self-end lg:w-[300px] w-full text-white text-base font-semibold bg-blue h-10 rounded-lg hover:bg-blue/90 transition">
+                    <button className="flex items-center justify-center w-full text-white text-base font-semibold bg-blue h-10 rounded-lg hover:bg-blue/90 transition">
                         Pedir orçamento
                     </button>
                 </Form.Submit>
             </Form.Root>
+            <div className='flex items-center justify-center pt-30 sr-only'>
+                <span className='font-bold text-lg text-zinc-900'>Também atendemos por Whatsapp</span>
+            </div>
+            <div className='flex justify-center'>
+                <Link href="https://api.whatsapp.com/send?phone=5547988074437" target="_blank">
+                    <button className="flex items-center font-medium text-base text-white bg-green-600 hover:bg-green-700 h-10 px-6 gap-2 rounded-lg transition"><FaWhatsapp className="h-5 w-5 zinc-700" />(47) 98807-4437</button>
+                </Link>
+            </div>
         </div>
     )
 }

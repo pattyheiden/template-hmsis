@@ -38,8 +38,8 @@ export function Plans() {
                             <div className="flex gap-2 items-center justify-center pt-4 pb-4"><IoClose  className="h-4 w-4 text-red-800" />Frente de caixa</div>
                         </div>
                         <div className="pt-12 pb-6">
-                            <Link href="/checkout" target="_blank">
-                                <button className="bg-blue hover:bg-blue/80 text-white text-base font-semibold px-9 py-3 rounded-lg">Contratar</button>
+                            <Link href="/orcamento" target="_blank">
+                                <button className="bg-blue hover:bg-blue/80 text-white text-base font-semibold px-9 py-3 rounded-lg">Saiba mais</button>
                             </Link>
                         </div>                        
                     </div>
@@ -77,8 +77,8 @@ export function Plans() {
                             <div className="flex gap-2 items-center justify-center pt-4 pb-4"><IoCheckmark  className="h-4 w-4 text-green-800" />Frente de caixa</div>
                         </div>
                         <div className="pt-12 pb-6">
-                            <Link href="/checkout" target="_blank">
-                                <button className="bg-blue hover:bg-blue/80 text-white text-base font-semibold px-9 py-3 rounded-lg">Contratar</button>
+                            <Link href="/orcamento" target="_blank">
+                                <button className="bg-blue hover:bg-blue/80 text-white text-base font-semibold px-9 py-3 rounded-lg">Saiba mais</button>
                             </Link>
                         </div>
                         

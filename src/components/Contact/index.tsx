@@ -10,7 +10,8 @@ interface ContactProps {
 
 export function Contact({title, className} : ContactProps) {
     return (
-        <Dialog.Root>            
+        <div className='sr-only'>
+            <Dialog.Root>            
             <Dialog.Trigger className={className}>{title}</Dialog.Trigger>
             <Dialog.Portal>
                 <Dialog.Overlay className='fixed inset-0 bg-black/50' />
@@ -30,5 +31,6 @@ export function Contact({title, className} : ContactProps) {
                 </Dialog.Content>
             </Dialog.Portal>
         </Dialog.Root>
+        </div>
     )
 }
