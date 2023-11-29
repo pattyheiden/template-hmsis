@@ -4,9 +4,9 @@ import { FeedList } from "./FeedList";
 
 export function Benefits() {
     return (
-        <div className="flex flex-col w-[1130px] mx-auto">
+        <div className="lg:w-[1130px] lg:mt-0 flex flex-col w-screen mx-auto px-3 mt-30">
             <div className="flex justify-center">
-                <span className="text-zinc-950 text-2xl font-extrabold">Vantagens de ter sua própria loja virtual</span>
+                <span className="text-zinc-950 text-2xl font-extrabold text-center">Vantagens de ter sua própria loja virtual</span>
             </div>
             <div className="mt-20">
                 <FeedList icon={FaGlobeAmericas} title="Acesso global" text="Com uma loja virtual, você pode alcançar clientes em todo o mundo, sem as limitações geográficas de uma loja física. Isso permite que você amplie seu alcance e potencialmente aumente suas vendas." />

@@ -8,7 +8,7 @@ import { Slide } from "@/components/Slide";
 export default function Home() {
   return (
     <div>
-      <div className="bg-blue">
+      <div className="bg-zinc-900">
         <Header />
       </div>
       <div>

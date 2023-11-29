@@ -6,20 +6,18 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 import Link from "next/link";
 
 export class MyClients extends Component {
-    render() {
-        return (
-            <div className="container w-[1130px] mx-auto">
-                <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
-                    <CarouselProvider
+    slide = (param:number) => {
+        return(
+            <CarouselProvider
                         naturalSlideHeight={125}
                         naturalSlideWidth={100}
                         isIntrinsicHeight={true}
                         totalSlides={5}
-                        visibleSlides={3}
+                        visibleSlides={param}
                         step={1}
                         infinite={true}
-                        isPlaying={true}
-                        className="lg:block hidden" >
+                        isPlaying={true}                        
+                        className="lg:block" >
                         <div className="w-full relative flex items-center justify-center">
                             <ButtonBack role="button" aria-label="slide backward" className="z-30 left-0 cursor-pointer" id="prev">
                                 <FaAngleLeft className="text-zinc-900 h-6 w-6" />
@@ -71,6 +69,19 @@ export class MyClients extends Component {
                             </ButtonNext>
                         </div>
                     </CarouselProvider>
+        )
+    }
+    render() {
+        
+        return (
+            <div className="container lg:w-[1130px] w-screen mx-auto">
+                <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
+                    <div className="lg:hidden block">
+                    {this.slide(1)}
+                    </div>
+                    <div className="lg:block hidden">
+                    {this.slide(3)}
+                    </div>
                 </div>
             </div>
         )

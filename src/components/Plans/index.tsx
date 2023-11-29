@@ -3,12 +3,12 @@ import { IoClose, IoCheckmark  } from "react-icons/io5";
 
 export function Plans() {
     return (
-        <div className="lg:w-[1130px] mx-auto">
+        <div className="lg:w-[1130px] w-screen mx-auto px-3">
             <div className="flex flex-col items-center mt-30 mb-30">
                 <span className="text-zinc-950 text-2xl font-extrabold">Planos oferecidos</span>
                 <span className="text-zinc-700 text-lg font-semibold"> para fazer sua loja virtual de sucesso</span>
             </div>
-            <div className="grid lg:grid-cols-2 pt-30 gap-6 lg:w-[900px] mb-2 mx-auto">
+            <div className="grid lg:grid-cols-2 pt-30 gap-6 lg:w-[1130px] mb-2 mx-auto">
                 <div className="col-span-1 items-center justify-center text-center bg-white rounded-b-lg">
                     <div className="flex bg-blue text-center h-20 items-center justify-center rounded-t-lg">
                         <span className="text-white font-semibold text-xl">START</span>
@@ -37,17 +37,11 @@ export function Plans() {
                             <div className="flex gap-2 items-center justify-center pt-4 pb-4"><IoClose  className="h-4 w-4 text-red-800" />Gerenciador Financeiro</div>
                             <div className="flex gap-2 items-center justify-center pt-4 pb-4"><IoClose  className="h-4 w-4 text-red-800" />Frente de caixa</div>
                         </div>
-                        <div className="pt-12 pb-3">
+                        <div className="pt-12 pb-6">
                             <Link href="/checkout" target="_blank">
                                 <button className="bg-blue hover:bg-blue/80 text-white text-base font-semibold px-9 py-3 rounded-lg">Contratar</button>
                             </Link>
-                        </div>
-                        <div className="pb-6">
-                            <span className="font-normal text-sm">Opcional (R$50,00)<br />
-                                e-mail personalizado<br />
-                                (contato@meunegocio.com.br)
-                            </span>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
                 <div className="col-span-1 items-center justify-center text-center bg-white rounded-b-lg">
@@ -82,17 +76,12 @@ export function Plans() {
                             <div className="flex gap-2 items-center justify-center pt-4 pb-4"><IoCheckmark  className="h-4 w-4 text-green-800" />Gerenciador Financeiro</div>
                             <div className="flex gap-2 items-center justify-center pt-4 pb-4"><IoCheckmark  className="h-4 w-4 text-green-800" />Frente de caixa</div>
                         </div>
-                        <div className="pt-12 pb-3">
+                        <div className="pt-12 pb-6">
                             <Link href="/checkout" target="_blank">
                                 <button className="bg-blue hover:bg-blue/80 text-white text-base font-semibold px-9 py-3 rounded-lg">Contratar</button>
                             </Link>
                         </div>
-                        <div className="pb-6">
-                            <span className="font-normal text-sm">Opcional (R$50,00)<br />
-                                e-mail personalizado<br />
-                                (contato@meunegocio.com.br)
-                            </span>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

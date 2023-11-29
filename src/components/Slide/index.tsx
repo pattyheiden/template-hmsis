@@ -6,15 +6,15 @@ export function Slide() {
 
     return (
         <div>
-            <div className="absolute">
+            <div className="lg:absolute lg:-mb-0 lg:block -mb-40 hidden">
                 <Image src={bg} alt="background" />
             </div>
-            <div className="grid grid-cols-3 w-[1130px] mx-auto mt-0 py-10 items-center">
-                <div className="col-span-1">
+            <div className="lg:grid lg:grid-cols-3 lg:w-[1130px] lg:mt-0 lg:py-10 mt-10 mx-auto items-center">
+                <div className="lg:col-span-1 lg:mx-0 lg:mt-0 lg:text-left lg:items-start lg:px-0 flex flex-col mt-16 items-center text-center px-3">
                     <h1 className="text-zinc-950 text-3xl font-bold">Crie sua loja virtual <br />e aumente seu negócio.</h1>
-                    <span className="text-zinc-950 text-lg font-medium">Leve sua marca para o mundo digital.</span>
+                    <span className="lg:mt-0 text-zinc-950 text-lg font-medium mt-6">Leve sua marca para o mundo digital.</span>
                 </div>
-                <div className="col-span-2 -mt-10">
+                <div className="lg:col-span-2 lg:-mt-10 lg:px-0 mt-30 px-3">
                     <Lottiefile />
                 </div>
             </div>
