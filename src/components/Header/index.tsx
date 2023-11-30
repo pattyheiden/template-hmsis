@@ -5,7 +5,6 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react';
 import { FaInstagram, FaFacebook } from "react-icons/fa6";
 import { PiList } from "react-icons/pi"
-import { Contact } from '../Contact'
 
 export function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -83,8 +82,8 @@ export function Header() {
                 <Link href="#clients" className='text-white hover:text-zinc-200 transition'>
                     Clientes
                 </Link>
-                <Link href="" className='text-white hover:text-zinc-200 transition'>
-                    <Contact title="Contato" />
+                <Link href="https://api.whatsapp.com/send?phone=5547988074437" target='_blank' className='text-white hover:text-zinc-200 transition'>
+                    Contato
                 </Link>
             </div>
             <div className='lg:flex gap-6 hidden'>
