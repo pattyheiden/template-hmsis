@@ -9,6 +9,13 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'HMsis Sistemas • Desenvolvimento de sites',
   description: 'Crie sua loja virtual e aumente seu negócio. Leve sua marca para o mundo digital.',
+  keywords: 'Desenvolvimento de sites, Desenvolvimento de lojas virtuais, E-commerce, Web design, Loja online, Plataforma de comércio eletrônico, Catálogo de produtos online',
+  openGraph: {
+    images: 'https://hmsis.com.br/og.png',
+    title: 'HMsis Sistemas • Desenvolvimento de sites',
+    description: 'Crie sua loja virtual e aumente seu negócio. Leve sua marca para o mundo digital.',
+    url: 'https://hmsis.com.br/',
+  },
 }
 
 export default function RootLayout({
