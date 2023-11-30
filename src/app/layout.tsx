@@ -25,9 +25,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>HMsis Sistemas • Desenvolvimento de sites</title>
+        <meta name="description" content="Crie sua loja virtual e aumente seu negócio. Leve sua marca para o mundo digital." />
+          <meta name="google-site-verification" content="I_yi9LXA_q33rXwmYWgsPFlXCm6WkapYPfpz-184pIw" />
+          <script dangerouslySetInnerHTML={{
+          __html: ` 
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-PLL2K4ZQ');`}}>
+        </script>
+      </head>
       <body className={montserrat.className}>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLL2K4ZQ" height="0" width="0"></iframe>
         <div >
-          <div className='w-full top-0 bg-zinc-900'>
+          <div className='w-full top-0 bg-zinc-900'>          
             <Header />
           </div>
          <div>
