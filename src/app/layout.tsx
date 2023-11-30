@@ -40,7 +40,7 @@ export default function RootLayout({
       </head>
       <body className={montserrat.className}>
       <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLL2K4ZQ" height="0" width="0"></iframe>
-        <div >
+        <div className='antialiased'>
           <div className='w-full top-0 bg-zinc-900'>          
             <Header />
           </div>

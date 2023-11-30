@@ -22,10 +22,10 @@ export function Footer() {
                     <div className="flex flex-col items-center text-center my-9">
                         <span className="text-lg font-semibold text-zinc-900 mb-4">Redes Sociais</span>
                         <div className="flex gap-2 ">
-                            <Link href="https://www.instagram.com/hmsis_/" target="_blank">
-                                <FaInstagram className="h-5 w-5 text-zinc-700 hover:text-zinc-800" />
+                            <Link href="https://www.instagram.com/hmsis_/" target="_blank" arial-label="Instagram">
+                                <FaInstagram className="h-5 w-5 text-zinc-700 hover:text-zinc-800"  />
                             </Link>
-                            <Link href="https://www.facebook.com/hmsissistemas" target="_blank">
+                            <Link href="https://www.facebook.com/hmsissistemas" target="_blank" arial-label="Facebook">
                                 <FaFacebook className="h-5 w-5 text-zinc-700 hover:text-zinc-800" />
                             </Link>
                         </div>
@@ -36,7 +36,7 @@ export function Footer() {
                             Queremos conhecê-lo melhor e <br /> entender suas necessidades.                            
                             <div>
                                 <Link href="/orcamento">
-                                    <button className="bg-blue hover:bg-blue/90 transition px-6 py-2 rounded-lg mt-4 text-white font-medium">Quero tirar minhas dúvidas</button>
+                                    <button className="bg-zinc-800 hover:bg-zinc-700 transition px-5 py-2 rounded-lg mt-4 text-white font-semibold">Quero tirar minhas dúvidas</button>
                                 </Link>
                             </div>
                         </span>

@@ -87,10 +87,10 @@ export function Header() {
                 </Link>
             </div>
             <div className='lg:flex gap-6 hidden'>
-                <Link href="https://www.instagram.com/hmsis_/" target='_blank'>
+                <Link href="https://www.instagram.com/hmsis_/" target='_blank' arial-label="Instagram">
                     <FaInstagram className='h-6 w-6 text-white hover:text-zinc-200 transition' />
                 </Link>
-                <Link href="https://www.facebook.com/hmsissistemas" target='_blank'>
+                <Link href="https://www.facebook.com/hmsissistemas" target='_blank' arial-label="Facebook">
                     <FaFacebook className='h-6 w-6 text-white hover:text-zinc-200 transition' />
                 </Link>
             </div>
