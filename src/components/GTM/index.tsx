@@ -13,7 +13,7 @@ export function GTM() {
           })(window,document,'script','dataLayer','${GTM_ID}');
         `,
                 }}
-            />
+            /> 
         </>
     )
 }
