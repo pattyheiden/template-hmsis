@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg from '@/assets/bg.png'
+import bg from '@/assets/bg.webp'
 import { Lottiefile } from "../Lottiefile";
 
 export function Slide() {
@@ -7,7 +7,7 @@ export function Slide() {
     return (
         <div>
             <div className="lg:absolute lg:-mb-0 lg:block -mb-40 hidden">
-                <Image src={bg} alt="background" />
+                <Image src={bg} alt="background" loading="lazy" width={1920} height={960} />
             </div>
             <div className="lg:grid lg:grid-cols-3 lg:w-[1130px] lg:mt-0 lg:py-10 mt-10 mx-auto items-center">
                 <div className="lg:col-span-1 lg:mx-0 lg:mt-0 lg:text-left lg:items-start lg:px-0 flex flex-col mt-16 items-center text-center px-6">

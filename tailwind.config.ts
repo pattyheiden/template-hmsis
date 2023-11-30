@@ -15,7 +15,7 @@ const config: Config = {
         '3s': '3s'
       },
       backgroundImage: {
-        'image': "url('/assets/bg.png')",        
+        'image': "url('/assets/bg.webp')",        
       },
       height: {
         '75': '4.688rem',
