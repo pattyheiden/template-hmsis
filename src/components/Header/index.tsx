@@ -26,7 +26,7 @@ export function Header() {
         <div className="lg:w-[1130px] lg:justify-between lg:mx-auto flex h-32 w-auto items-center justify-around px-2 ">
             <div className='block'>
                 <Link href="/">
-                    <Image src={Logo} alt='HMsis Sistemas' width={100} height={100} />
+                    <Image src={Logo} alt='HMsis Sistemas' width={100} height={100} className='h-auto w-auto' />
                 </Link>
             </div>
             <div className='lg:hidden block' onClick={handleToggle}>

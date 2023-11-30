@@ -26,22 +26,22 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">      
+    <html lang="en">
       <head>
-      <GTM />
+        <GTM />
         <title>HMsis Sistemas • Desenvolvimento de sites</title>
         <meta name="description" content="Crie sua loja virtual e aumente seu negócio. Leve sua marca para o mundo digital." />
-          <meta name="google-site-verification" content="I_yi9LXA_q33rXwmYWgsPFlXCm6WkapYPfpz-184pIw" />          
+        <meta name="google-site-verification" content="I_yi9LXA_q33rXwmYWgsPFlXCm6WkapYPfpz-184pIw" />
       </head>
       <body className={montserrat.className}>
-      <GTMIframe />
+        <GTMIframe />
         <div className='antialiased'>
-          <div className='w-full top-0 bg-zinc-900'>          
+          <div className='w-full top-0 bg-zinc-900'>
             <Header />
           </div>
-         <div>
-         {children}
-         </div>
+          <div>
+            {children}
+          </div>
           <div className='block w-full bottom-0 justify-end items-end'>
             <Footer />
           </div>

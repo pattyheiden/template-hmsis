@@ -9,7 +9,7 @@ export function Footer() {
             <div className="flex lg:w-full w-screen border-t-8 border-zinc-900">
                 <div className="lg:grid lg:grid-cols-4 lg:mb-4 w-[1130px] mx-auto mb-3 px-6">
                     <div className="flex flex-col items-center text-center">
-                        <Image src={Logo} alt="" height={130} width={130} />
+                        <Image src={Logo} alt="" height={130} width={130} className="h-auto w-auto"/>
                         <span className="font-medium text-base text-zinc-700">Há 3 anos transformando pequenos sonhos em grandes negócios.</span>
                     </div>
                     <div className="flex flex-col items-center text-center my-9">
