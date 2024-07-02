@@ -12,7 +12,7 @@ export class MyClients extends Component {
                         naturalSlideHeight={125}
                         naturalSlideWidth={100}
                         isIntrinsicHeight={true}
-                        totalSlides={4}
+                        totalSlides={5}
                         visibleSlides={param}
                         step={1}
                         infinite={true}
@@ -48,14 +48,14 @@ export class MyClients extends Component {
                                         </Slide>
                                         <Slide index={4}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                                <Link href='#'>
+                                                <Link href='#' style={{ pointerEvents: 'none' }}>
                                                     <img src="/moser.webp" alt="moser" width={800} height={800} className="object-cover object-center h-auto w-auto" />
                                                 </Link>
                                             </div>
                                         </Slide>
                                         <Slide index={0}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                                <Link href='#'>
+                                                <Link href='#' style={{ pointerEvents: 'none' }}>
                                                     <img src="/dulcidora.webp" alt="dulcidora" width={800} height={800} className="object-cover object-center h-auto w-auto" />
                                                 </Link>
                                             </div>
