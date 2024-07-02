@@ -39,13 +39,13 @@ export class MyClients extends Component {
                                                 </Link>
                                             </div>
                                         </Slide>
-                                        {/* <Slide index={3}>
+                                        <Slide index={3}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                                <Link href='https://merboleletrica.com.br/' target="_blank">
+                                                <Link href='https://eletricamerbol.com.br/' target="_blank">
                                                     <img src="/merbol.webp" alt="merbol" width={800} height={800} className="object-cover object-center h-auto w-auto" />
                                                 </Link>
                                             </div>
-                                        </Slide> */}
+                                        </Slide>
                                         <Slide index={4}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                                 <Link href='#'>
