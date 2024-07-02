@@ -24,14 +24,7 @@ export class MyClients extends Component {
                             </ButtonBack>
                             <div className="w-full h-full mx-auto overflow-x-hidden overflow-y-hidden">
                                 <Slider>
-                                    <div id="slider" className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
-                                        <Slide index={0}>
-                                            <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                                <Link href='https://dulcidora.com.br/' target="_blank">
-                                                    <img src="/dulcidora.webp" alt="dulcidora" width={800} height={800} className="object-cover object-center h-auto w-auto" />
-                                                </Link>
-                                            </div>
-                                        </Slide>
+                                    <div id="slider" className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">                                        
                                         <Slide index={1}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                                 <Link href='https://atonsolucoes.com.br/' target="_blank">
@@ -41,7 +34,7 @@ export class MyClients extends Component {
                                         </Slide>
                                         <Slide index={2}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                                <Link href='' target="_blank">
+                                                <Link href='https://www.blufusos.com.br/' target="_blank">
                                                     <img src="/blufusos.webp" alt="blufusos" width={800} height={800} className="object-cover object-center h-auto w-auto" />
                                                 </Link>
                                             </div>
@@ -55,12 +48,18 @@ export class MyClients extends Component {
                                         </Slide>
                                         <Slide index={4}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                                <Link href='https://mosermateriaiseletricos.com.br/' target="_blank">
+                                                <Link href='#'>
                                                     <img src="/moser.webp" alt="moser" width={800} height={800} className="object-cover object-center h-auto w-auto" />
                                                 </Link>
                                             </div>
                                         </Slide>
-
+                                        <Slide index={0}>
+                                            <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                                                <Link href='#'>
+                                                    <img src="/dulcidora.webp" alt="dulcidora" width={800} height={800} className="object-cover object-center h-auto w-auto" />
+                                                </Link>
+                                            </div>
+                                        </Slide>
                                     </div>
                                 </Slider>
                             </div>
